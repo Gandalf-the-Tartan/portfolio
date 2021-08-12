@@ -1,0 +1,3 @@
+--if two runners finish at precisely the same time
+--they share joint first place
+--the third guy is then second place

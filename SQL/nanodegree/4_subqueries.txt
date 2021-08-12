@@ -1,0 +1,33 @@
+placement,dependencies
+
+WINS
+
+
+with;
+--creates global table variable before any subqueries
+--AS order is reversed => WITH alias AS (subquery),
+--precedes SELECT
+
+inline;
+...
+FROM(subquery) AS TableName;
+
+--NOTE not necessarily at end, and alias doesn't need camelcase
+--equivalent to lambda?
+
+
+nested;
+--used for filtering 
+--used in conditional WHERE clause
+...
+WHERE comarison with (subquery)
+...
+
+scalar;
+--good for MAX(), MIN()?
+
+
+
+dependency simply means there is exophoric reference to an alias in the query
+
+

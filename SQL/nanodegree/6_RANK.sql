@@ -1,0 +1,4 @@
+--if two runners finish a race at precisely the same time
+--they are both joint first
+--second place is empty
+--then third place is occupied

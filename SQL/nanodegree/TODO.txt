@@ -1,0 +1,1 @@
+-find out how to run parch-and-posey.sql to create database in terminal
